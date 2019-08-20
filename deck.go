@@ -18,6 +18,8 @@ func newDeck() deck {
 			cards = append(cards, value+" of "+suit)
 		}
 	}
+
+	return cards
 }
 
 func (d deck) print() {
